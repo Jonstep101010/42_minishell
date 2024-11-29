@@ -61,7 +61,9 @@ static void	ctrl_c_handler(int sig, siginfo_t *info, void *unused)
 		g_ctrl_c = 1;
 		write(0, "\n", 1);
 		rl_on_new_line();
+		#if defined(__linux__)
 		rl_replace_line("", 0);
+		#endif
 		rl_redisplay();
 	}
 }

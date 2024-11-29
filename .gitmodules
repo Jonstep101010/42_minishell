@@ -1,14 +1,14 @@
 [submodule "include/libft"]
 	path = include/libft
-	url = https://github.com/Jonstep101010/libft
+	url = https://github.com/Jonstep101010/42_libft
 	branch = core-dep
 [submodule "include/libutils"]
 	path = include/libutils
-	url = https://github.com/Jonstep101010/libutils
+	url = https://github.com/Jonstep101010/42_libutils
 	branch = smaller-lib
 [submodule "include/libftprintf"]
 	path = include/libftprintf
-	url = https://github.com/Jonstep101010/ft_printf.git
+	url = https://github.com/Jonstep101010/42_printf.git
 [submodule "include/libgnl"]
 	path = include/libgnl
-	url = https://github.com/Jonstep101010/get_next_line.git
+	url = https://github.com/Jonstep101010/42_get_next_line.git
